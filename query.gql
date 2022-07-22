@@ -1,0 +1,16 @@
+------------------------------
+query {
+  getAllUsers {
+    firstName
+    lastName
+  }
+}
+------------------------------
+mutation {
+  createUser(firstName: "Test", lastName: "Testy", address:"Test", city:"Test", phone: "9876543210", email:"test@test.com", password:"654789sdf123"){
+    firstName
+    lastName
+    email
+  }
+}
+
